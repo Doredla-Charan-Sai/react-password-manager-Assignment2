@@ -1,0 +1,168 @@
+.bg-cont {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  background-size: cover;
+  padding: 20px;
+  width: 1000px;
+  height: 750px;
+}
+.logo {
+  height: 40px;
+  width: 150px;
+  margin-left: 30px;
+}
+.inputs-image-cont {
+  background-color: #5763a5;
+  background-size: cover;
+  border-radius: 8px;
+  height: 43%;
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.pass-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputs-cont {
+  background-color: #454f84;
+  background-size: cover;
+  width: 55%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.form-head {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.input-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  height: 33px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+.input-logo {
+  height: 100%;
+  width: 30px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+}
+.input {
+  outline: none;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+  width: 100%;
+}
+.add-btn {
+  align-self: flex-end;
+  height: 33px;
+  width: 70px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+.side-img {
+  width: 40%;
+  height: 100%;
+}
+.your-pass {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.count {
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  width: 30px;
+  padding: 5px;
+  border-radius: 13px;
+  text-align: center;
+  margin-left: 8px;
+}
+.pass-count-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.count-search-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.search-cont {
+  margin-bottom: 0px;
+  height: 25px;
+}
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #c3caea;
+  border: none;
+}
+.showPasswords {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+}
+.check-box-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.down-img {
+  height: 130px;
+  width: 140px;
+  align-self: center;
+}
+.no-pass {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  align-self: center;
+}
+.list-cont {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,51 @@
+.list-item-cont {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c3caea;
+  border-radius: 8px;
+  height: 70px;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+}
+.profile-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+.profile-letter {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.details {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: white;
+}
+.delete-icon {
+  height: 15px;
+  width: 15px;
+}
+.stars {
+  height: 10px;
+  width: 60px;
+  background-color: transparent;
+}
+.delete-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
